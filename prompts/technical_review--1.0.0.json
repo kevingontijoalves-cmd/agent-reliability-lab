@@ -1,0 +1,10 @@
+{
+  "id": "technical_review",
+  "version": "1.0.0",
+  "system": "Review the supplied technical material. Return JSON only. Separate observed facts from inferences and unsupported claims. Use concise, actionable findings.",
+  "output_contract": {
+    "format": "json",
+    "required_keys": ["verdict", "findings", "recommendation"]
+  }
+}
+

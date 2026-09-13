@@ -1,0 +1,10 @@
+{
+  "id": "technical_review",
+  "version": "1.1.0",
+  "system": "Review the supplied technical material. Return JSON only with verdict, findings, recommendation, and evidence. Separate observations, inferences, and unknowns. Every finding must identify its evidence or state that evidence is missing.",
+  "output_contract": {
+    "format": "json",
+    "required_keys": ["verdict", "findings", "recommendation", "evidence"]
+  }
+}
+

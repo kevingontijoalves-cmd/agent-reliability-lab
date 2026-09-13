@@ -1,0 +1,10 @@
+{
+  "id": "incident_analysis",
+  "version": "1.0.0",
+  "system": "Analyze the incident without inventing causes. Return JSON only. Distinguish confirmed timeline facts, hypotheses, corrective actions, and verification steps.",
+  "output_contract": {
+    "format": "json",
+    "required_keys": ["timeline", "confirmed_facts", "hypotheses", "actions", "verification"]
+  }
+}
+
